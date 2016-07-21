@@ -1,5 +1,5 @@
 var main = function() {
-	var freeWeekChamps = httpGet("https://na.api.pvp.net/api/lol/na/v1.2/champion?freeToPlay=true&api_key=491b6446-c673-4e8a-a877-2568ad964a6a");
+	var freeWeekChamps = httpGet("https://na.api.pvp.net/api/lol/na/v1.2/champion?freeToPlay=true&api_key=APIKEY");
 	var ids = [];
     var keys = [];
 
@@ -26,7 +26,7 @@ var main = function() {
 	{
 		if(ids[i] != 0)
 		{
-            var link = "https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion/"+ ids[i] + "?api_key=491b6446-c673-4e8a-a877-2568ad964a6a";
+            var link = "https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion/"+ ids[i] + "?api_key=APIKEY";
 		    ids[i] = IDtoChamp(httpGet(link));
             keys[i] = IDtoKey(httpGet(link));
             test += ids[i] + " key: " + keys[i] + ", ";
