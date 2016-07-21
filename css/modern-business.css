@@ -97,3 +97,15 @@ footer {
     float: right;
     padding: 21px 0px 0px 0px;
 }
+
+.align-right-same {
+    float:right;
+}
+
+.green {
+    color: #77AF49;
+}
+
+.red {
+    color: red;
+}
