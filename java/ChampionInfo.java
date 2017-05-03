@@ -25,7 +25,7 @@ import javax.json.JsonReader;
 import javax.json.JsonReaderFactory;
 import javax.json.JsonValue;
 
-//data of all the champions with their id: https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion?api_key=491b6446-c673-4e8a-a877-2568ad964a6a
+//data of all the champions with their id: https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion?api_key=API HERE
 public class ChampionInfo 
 {
 	final static String API = "API HERE";
