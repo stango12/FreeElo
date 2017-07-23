@@ -103,9 +103,18 @@ footer {
 }
 
 .green {
-    color: #77AF49;
+    color: #49A300;
 }
 
 .red {
     color: red;
+}
+
+.orange {
+    color: #C68000;
+}
+
+.grey {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
