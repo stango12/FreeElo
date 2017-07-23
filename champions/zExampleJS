@@ -80,7 +80,7 @@ function readTextFileRunes(file)
                     {
                         var x = document.createElement("IMG");
                         var node = document.createElement("ul");
-                        var runeId = httpGet("http://127.0.0.1:5000/rune/" + idArray[i]);
+                                                var runeId = httpGet("http://127.0.0.1:5000/rune/" + idArray[i]);
                         var runeName = IDtoRuneName(runeId);
 
                         x.setAttribute("src", "http://ddragon.leagueoflegends.com/cdn/6.19.1/img/rune/" + IDtoRunePic(runeId));
